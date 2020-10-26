@@ -1,4 +1,4 @@
-prefix=/home/think/catkin_ws/install
+prefix=/home/think/ros_project/catkin_ws/install
 
 Name: object_detection
 Description: Description of object_detection

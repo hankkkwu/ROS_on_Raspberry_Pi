@@ -67,14 +67,14 @@ set(object_detection_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(object_detection_SOURCE_PREFIX /home/think/catkin_ws/src/object_detection)
-  set(object_detection_DEVEL_PREFIX /home/think/catkin_ws/devel)
+  set(object_detection_SOURCE_PREFIX /home/think/ros_project/catkin_ws/src/object_detection)
+  set(object_detection_DEVEL_PREFIX /home/think/ros_project/catkin_ws/devel)
   set(object_detection_INSTALL_PREFIX "")
   set(object_detection_PREFIX ${object_detection_DEVEL_PREFIX})
 else()
   set(object_detection_SOURCE_PREFIX "")
   set(object_detection_DEVEL_PREFIX "")
-  set(object_detection_INSTALL_PREFIX /home/think/catkin_ws/install)
+  set(object_detection_INSTALL_PREFIX /home/think/ros_project/catkin_ws/install)
   set(object_detection_PREFIX ${object_detection_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/think/catkin_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/think/ros_project/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

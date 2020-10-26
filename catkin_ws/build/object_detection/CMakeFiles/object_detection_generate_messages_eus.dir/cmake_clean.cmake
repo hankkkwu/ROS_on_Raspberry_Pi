@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/think/catkin_ws/devel/share/roseus/ros/object_detection/manifest.l"
-  "/home/think/catkin_ws/devel/share/roseus/ros/object_detection/msg/BoundingBox.l"
-  "/home/think/catkin_ws/devel/share/roseus/ros/object_detection/msg/BoundingBoxes.l"
+  "/home/think/ros_project/catkin_ws/devel/share/roseus/ros/object_detection/manifest.l"
+  "/home/think/ros_project/catkin_ws/devel/share/roseus/ros/object_detection/msg/BoundingBox.l"
+  "/home/think/ros_project/catkin_ws/devel/share/roseus/ros/object_detection/msg/BoundingBoxes.l"
   "CMakeFiles/object_detection_generate_messages_eus"
 )
 

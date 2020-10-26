@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/think/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/think/ros_project/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/think/catkin_ws/build
+CMAKE_BINARY_DIR = /home/think/ros_project/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: rosgr
 .PHONY : object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/think/catkin_ws/build/object_detection && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/think/ros_project/catkin_ws/build/object_detection && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/think/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/think/catkin_ws/src /home/think/catkin_ws/src/object_detection /home/think/catkin_ws/build /home/think/catkin_ws/build/object_detection /home/think/catkin_ws/build/object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/think/ros_project/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/think/ros_project/catkin_ws/src /home/think/ros_project/catkin_ws/src/object_detection /home/think/ros_project/catkin_ws/build /home/think/ros_project/catkin_ws/build/object_detection /home/think/ros_project/catkin_ws/build/object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : object_detection/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

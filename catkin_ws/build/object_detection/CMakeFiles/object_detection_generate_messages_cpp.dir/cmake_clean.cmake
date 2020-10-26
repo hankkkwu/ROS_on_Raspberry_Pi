@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/think/catkin_ws/devel/include/object_detection/BoundingBox.h"
-  "/home/think/catkin_ws/devel/include/object_detection/BoundingBoxes.h"
+  "/home/think/ros_project/catkin_ws/devel/include/object_detection/BoundingBox.h"
+  "/home/think/ros_project/catkin_ws/devel/include/object_detection/BoundingBoxes.h"
   "CMakeFiles/object_detection_generate_messages_cpp"
 )
 

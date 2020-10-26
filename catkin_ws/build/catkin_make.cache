@@ -1,2 +1,2 @@
 object_detection
--DCATKIN_DEVEL_PREFIX=/home/think/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/think/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/think/ros_project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/think/ros_project/catkin_ws/install -G Unix Makefiles

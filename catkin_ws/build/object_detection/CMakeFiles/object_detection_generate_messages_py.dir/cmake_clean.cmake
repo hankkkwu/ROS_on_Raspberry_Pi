@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/think/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/_BoundingBox.py"
-  "/home/think/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/_BoundingBoxes.py"
-  "/home/think/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/__init__.py"
+  "/home/think/ros_project/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/_BoundingBox.py"
+  "/home/think/ros_project/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/_BoundingBoxes.py"
+  "/home/think/ros_project/catkin_ws/devel/lib/python3/dist-packages/object_detection/msg/__init__.py"
   "CMakeFiles/object_detection_generate_messages_py"
 )
 

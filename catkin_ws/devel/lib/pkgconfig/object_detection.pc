@@ -1,8 +1,8 @@
-prefix=/home/think/catkin_ws/devel
+prefix=/home/think/ros_project/catkin_ws/devel
 
 Name: object_detection
 Description: Description of object_detection
 Version: 0.0.0
-Cflags: -I/home/think/catkin_ws/devel/include
+Cflags: -I/home/think/ros_project/catkin_ws/devel/include
 Libs: -L${prefix}/lib -lobject_detection
 Requires: roscpp rospy sensor_msgs std_msgs cv_bridge message_runtime

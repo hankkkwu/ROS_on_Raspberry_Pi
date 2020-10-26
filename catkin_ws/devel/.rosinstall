@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/think/catkin_ws/devel/setup.sh
+    local-name: /home/think/ros_project/catkin_ws/devel/setup.sh

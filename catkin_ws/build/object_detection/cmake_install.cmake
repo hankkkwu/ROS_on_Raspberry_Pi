@@ -1,8 +1,8 @@
-# Install script for directory: /home/think/catkin_ws/src/object_detection
+# Install script for directory: /home/think/ros_project/catkin_ws/src/object_detection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/think/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/think/ros_project/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/msg" TYPE FILE FILES
-    "/home/think/catkin_ws/src/object_detection/msg/BoundingBox.msg"
-    "/home/think/catkin_ws/src/object_detection/msg/BoundingBoxes.msg"
+    "/home/think/ros_project/catkin_ws/src/object_detection/msg/BoundingBox.msg"
+    "/home/think/ros_project/catkin_ws/src/object_detection/msg/BoundingBoxes.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/cmake" TYPE FILE FILES "/home/think/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/cmake" TYPE FILE FILES "/home/think/ros_project/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/think/catkin_ws/devel/include/object_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/think/ros_project/catkin_ws/devel/include/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/think/catkin_ws/devel/share/roseus/ros/object_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/think/ros_project/catkin_ws/devel/share/roseus/ros/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/think/catkin_ws/devel/share/common-lisp/ros/object_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/think/ros_project/catkin_ws/devel/share/common-lisp/ros/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/think/catkin_ws/devel/share/gennodejs/ros/object_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/think/ros_project/catkin_ws/devel/share/gennodejs/ros/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/think/catkin_ws/devel/lib/python3/dist-packages/object_detection")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/think/ros_project/catkin_ws/devel/lib/python3/dist-packages/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/think/catkin_ws/devel/lib/python3/dist-packages/object_detection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/think/ros_project/catkin_ws/devel/lib/python3/dist-packages/object_detection")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/think/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/think/ros_project/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/cmake" TYPE FILE FILES "/home/think/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/cmake" TYPE FILE FILES "/home/think/ros_project/catkin_ws/build/object_detection/catkin_generated/installspace/object_detection-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection/cmake" TYPE FILE FILES
-    "/home/think/catkin_ws/build/object_detection/catkin_generated/installspace/object_detectionConfig.cmake"
-    "/home/think/catkin_ws/build/object_detection/catkin_generated/installspace/object_detectionConfig-version.cmake"
+    "/home/think/ros_project/catkin_ws/build/object_detection/catkin_generated/installspace/object_detectionConfig.cmake"
+    "/home/think/ros_project/catkin_ws/build/object_detection/catkin_generated/installspace/object_detectionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection" TYPE FILE FILES "/home/think/catkin_ws/src/object_detection/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_detection" TYPE FILE FILES "/home/think/ros_project/catkin_ws/src/object_detection/package.xml")
 endif()
 
