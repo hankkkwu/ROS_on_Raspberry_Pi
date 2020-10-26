@@ -36,12 +36,12 @@ class ObjectDetector(object):
     def setup_yolo(self):
         # Load names of classes
         self.class_names = []
-        with open("/home/think/catkin_ws/src/object_detection/weights/classes.txt", "r") as f:
+        with open("/home/think/ros_project/catkin_ws/src/object_detection/weights/classes.txt", "r") as f:
             self.class_names = [cname.strip() for cname in f.readlines()]
         
         # Load a network
-        self.net = cv2.dnn.readNet("/home/think/catkin_ws/src/object_detection/weights/yolov4-tiny.cfg",
-                                   "/home/think/catkin_ws/src/object_detection/weights/yolov4-tiny.weights")
+        self.net = cv2.dnn.readNet("/home/think/ros_project/catkin_ws/src/object_detection/weights/yolov4-tiny.cfg",
+                                   "/home/think/ros_project/catkin_ws/src/object_detection/weights/yolov4-tiny.weights")
         # If OpenCV is compiled with Intel's Inference Engine library, 
         # DNN_BACKEND_DEFAULT means DNN_BACKEND_INFERENCE_ENGINE. 
         # Otherwise it equals to DNN_BACKEND_OPENCV.
