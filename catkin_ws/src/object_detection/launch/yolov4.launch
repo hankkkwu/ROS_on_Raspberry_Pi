@@ -1,0 +1,3 @@
+<launch>
+<node pkg="object_detection" type="yolov4_object_detector_msg.py" name="yolov4_object_detector_msg"/>
+</launch>
