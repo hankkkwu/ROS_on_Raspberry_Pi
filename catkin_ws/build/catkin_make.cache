@@ -1,2 +1,2 @@
-object_detection
+object_detection:raspi_cam
 -DCATKIN_DEVEL_PREFIX=/home/think/ros_project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/think/ros_project/catkin_ws/install -G Unix Makefiles

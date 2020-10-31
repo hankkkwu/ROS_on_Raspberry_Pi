@@ -54,12 +54,14 @@ CMAKE_BINARY_DIR = /home/think/ros_project/catkin_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
+all: raspi_cam/all
 all: object_detection/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
+preinstall: raspi_cam/preinstall
 preinstall: object_detection/preinstall
 
 .PHONY : preinstall
@@ -71,6 +73,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
+clean: raspi_cam/clean
 clean: object_detection/clean
 
 .PHONY : clean
@@ -186,6 +189,24 @@ object_detection/clean: object_detection/CMakeFiles/rosgraph_msgs_generate_messa
 object_detection/clean: object_detection/CMakeFiles/object_detection_generate_messages_cpp.dir/clean
 
 .PHONY : object_detection/clean
+
+#=============================================================================
+# Directory level rules for directory raspi_cam
+
+# Recursive "all" directory target.
+raspi_cam/all:
+
+.PHONY : raspi_cam/all
+
+# Recursive "preinstall" directory target.
+raspi_cam/preinstall:
+
+.PHONY : raspi_cam/preinstall
+
+# Recursive "clean" directory target.
+raspi_cam/clean: raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : raspi_cam/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir
@@ -430,6 +451,33 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
+
+#=============================================================================
+# Target rules for target raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir
+
+# All Build rule for target.
+raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/build.make raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/build.make raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/think/ros_project/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+.PHONY : raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/all
+
+# Build rule for subdir invocation for target.
+raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/think/ros_project/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/think/ros_project/catkin_ws/build/CMakeFiles 0
+.PHONY : raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+# Convenience name for target.
+_catkin_empty_exported_target: raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/rule
+
+.PHONY : _catkin_empty_exported_target
+
+# clean rule for target.
+raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/build.make raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target object_detection/CMakeFiles/object_detection_genpy.dir

@@ -35,6 +35,14 @@
 /home/think/ros_project/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/think/ros_project/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/think/ros_project/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/install/strip.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/install/local.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/install.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/list_install_components.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/rebuild_cache.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/edit_cache.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/test.dir
+/home/think/ros_project/catkin_ws/build/raspi_cam/CMakeFiles/_catkin_empty_exported_target.dir
 /home/think/ros_project/catkin_ws/build/object_detection/CMakeFiles/install/strip.dir
 /home/think/ros_project/catkin_ws/build/object_detection/CMakeFiles/install.dir
 /home/think/ros_project/catkin_ws/build/object_detection/CMakeFiles/list_install_components.dir

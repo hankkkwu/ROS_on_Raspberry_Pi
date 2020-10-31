@@ -1,0 +1,8 @@
+prefix=/home/think/ros_project/catkin_ws/install
+
+Name: raspi_cam
+Description: Description of raspi_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
