@@ -1,0 +1,4 @@
+<launch>
+<node pkg="raspi_cam" type="raspicam_pub.py" name="raspicam_pub" output="screen" />
+<node pkg="raspi_cam" type="raspicam_sub.py" name="raspicam_sub" output="screen" />
+</launch>
