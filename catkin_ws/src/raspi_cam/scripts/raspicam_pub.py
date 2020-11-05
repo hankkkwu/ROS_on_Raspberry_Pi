@@ -46,6 +46,8 @@ class CameraPublisher(object):
 
                 # Sleep just enough to maintain the desired rate
                 rate.sleep()
+        cap.release()
+        cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     try:
